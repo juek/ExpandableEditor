@@ -1,0 +1,80 @@
+/* Editor Wrap width */
+
+body.gpAdmin #gp_admin_html #ckeditor_wrap {
+  -webkit-transition: right 0.5s, width 0.2s;
+  -moz-transition: right 0.5s, width 0.2s;
+  transition: right 0.5s, width 0.2s;
+}
+
+body.gpAdmin #gp_admin_html #ckeditor_wrap.ckeditor_expanded { 
+  right: -320px;
+  width: 320px;
+}
+
+body.gpAdmin #gp_admin_html #ckeditor_wrap.ckeditor_expanded.show_editor #new_section_links div[data-type-id] {
+  width: 33.3333%;
+}
+
+body.gpAdmin #gp_admin_html #ckeditor_wrap.ckeditor_expanded.show_editor {
+  right: 0;
+}
+
+#ckeditor_wrap.ckeditor_expanded #ckeditor_tabs .fa-minus-square-o { display: inline-block; }
+#ckeditor_wrap.ckeditor_expanded #ckeditor_tabs .fa-plus-square-o  { display: none; }
+#ckeditor_wrap:not(.ckeditor_expanded) #ckeditor_tabs .fa-minus-square-o { display: none; }
+#ckeditor_wrap:not(.ckeditor_expanded) #ckeditor_tabs .fa-plus-square-o  { display: inline-block; }
+
+
+
+/* Editor Tabs */
+
+body.gpAdmin #gp_admin_html #ckeditor_tabs {
+  margin-left: 30px;
+  width: calc(100% - 30px);
+}
+
+#ckeditor_toggle_size {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 5px;
+  width: 20px;
+  height: 29px;
+  color: #aaa !important;
+  background: #444;
+  outline: none;
+  font-size: 14px;
+  line-height: 29px;
+  text-align: center;
+  overflow: hidden;
+}
+
+#ckeditor_toggle_size:hover {
+  color: #fff !important;
+}
+
+
+
+/* Admin Box */
+#gp_admin_html #gp_admin_box {
+  position: fixed;
+  top: 40px !important;
+  left: 50vw !important;
+  margin-top: 0;
+  transform: translateX(-50%);
+  max-height: calc(100vh - 80px);
+}
+
+#gp_admin_html #gp_admin_box #gp_admin_boxc {
+  width: 660px !important;
+  overflow-x: hidden;
+  overflow-y: auto;
+  max-height: calc(100vh - 120px);
+}
+
+#gp_admin_html #gp_admin_box .gp_admin_box_close {
+  top: 20px;
+  right: 20px;
+}
+

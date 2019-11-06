@@ -11,6 +11,10 @@ See also [Typesetter Home](https://www.typesettercms.com), [Typesetter on GitHub
 ## Current Version
 1.0
 
+## Screenshot
+
+![Screenshot](/expandable-editor-anim.gif?raw=true)
+
 ## Requirements
 * Typesetter CMS 5+
 

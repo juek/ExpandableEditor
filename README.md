@@ -2,7 +2,7 @@
 
 ## About ##
 
-This tiny Admin UI plugin makes the editor sidebar expandable, which improves management of deep nested section structures and allows to show more buttons in the &lsquo;New Section&rsquo; editor area without scrolling. 
+This tiny Admin UI plugin makes the editor sidebar expandable, which improves management of deep nested section structures and allows to show more buttons in the &lsquo;New Sections&rsquo; editor area without scrolling. 
 * After installation watch out for the new [+] icon in the &lsquo;Editor Tabs&rsquo; area at the right top of the screen. 
 * The expanded / collapsed state will be stored and maintained (individually for each user).
 

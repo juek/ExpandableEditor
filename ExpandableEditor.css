@@ -19,10 +19,10 @@ body.gpAdmin #gp_admin_html #ckeditor_wrap.ckeditor_expanded.show_editor {
   right: 0;
 }
 
-#ckeditor_wrap.ckeditor_expanded #ckeditor_tabs .fa-minus-square-o { display: inline-block; }
-#ckeditor_wrap.ckeditor_expanded #ckeditor_tabs .fa-plus-square-o  { display: none; }
-#ckeditor_wrap:not(.ckeditor_expanded) #ckeditor_tabs .fa-minus-square-o { display: none; }
-#ckeditor_wrap:not(.ckeditor_expanded) #ckeditor_tabs .fa-plus-square-o  { display: inline-block; }
+#ckeditor_wrap.ckeditor_expanded #ckeditor_toggle_size .fa-minus-square-o { display: inline-block; }
+#ckeditor_wrap.ckeditor_expanded #ckeditor_toggle_size .fa-plus-square-o  { display: none; }
+#ckeditor_wrap:not(.ckeditor_expanded) #ckeditor_toggle_size .fa-minus-square-o { display: none; }
+#ckeditor_wrap:not(.ckeditor_expanded) #ckeditor_toggle_size .fa-plus-square-o  { display: inline-block; }
 
 
 

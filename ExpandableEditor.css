@@ -6,16 +6,20 @@ body.gpAdmin #gp_admin_html #ckeditor_wrap {
   transition: right 0.5s, width 0.2s;
 }
 
-body.gpAdmin #gp_admin_html #ckeditor_wrap.ckeditor_expanded { 
+body.gpAdmin #gp_admin_html #ckeditor_wrap.ckeditor_expanded:not(.overrule_ckeditor_expanded) {
   right: -320px;
   width: 320px;
 }
 
-body.gpAdmin #gp_admin_html #ckeditor_wrap.ckeditor_expanded.show_editor #new_section_links div[data-type-id] {
+body.gpAdmin #gp_admin_html #ckeditor_wrap.ckeditor_expanded.overrule_ckeditor_expanded a[data-cmd="ToggleEditorSize"] {
+  visibility: hidden;
+}
+
+body.gpAdmin #gp_admin_html #ckeditor_wrap.ckeditor_expanded.show_editor:not(.overrule_ckeditor_expanded) #new_section_links div[data-type-id] {
   width: 33.3333%;
 }
 
-body.gpAdmin #gp_admin_html #ckeditor_wrap.ckeditor_expanded.show_editor {
+body.gpAdmin #gp_admin_html #ckeditor_wrap.ckeditor_expanded.show_editor:not(.overrule_ckeditor_expanded) {
   right: 0;
 }
 
@@ -41,16 +45,19 @@ body.gpAdmin #gp_admin_html #ckeditor_tabs {
   padding: 0 5px;
   width: 20px;
   height: 29px;
-  color: #aaa !important;
   background: #444;
-  outline: none;
   font-size: 14px;
   line-height: 29px;
   text-align: center;
   overflow: hidden;
 }
 
-#ckeditor_toggle_size:hover {
+#ckeditor_toggle_size a {
+  color: #aaa !important;
+  outline: none;
+ }
+
+#ckeditor_toggle_size:hover a {
   color: #fff !important;
 }
 
@@ -77,4 +84,3 @@ body.gpAdmin #gp_admin_html #ckeditor_tabs {
   top: 20px;
   right: 20px;
 }
-

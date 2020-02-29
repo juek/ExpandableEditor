@@ -1,4 +1,4 @@
-# Expandable Editor Admin UI plugin for Typesetter CMS - Archived #
+# Archived: Expandable Editor Admin UI plugin for Typesetter CMS #
 
 ## Obsolete as of Typesetter 5.2 ##
 
